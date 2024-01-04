@@ -1,33 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,600;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <!-- -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon" />
-    <title>Yummy Nouilles - Accueil</title>
-  </head>
-  <body>
-    <header class="appBar">
-      <img
-        src="assets/logo.svg"
-        alt="Logo Yummy Nouilles"
-        class="appBar__logo"
-      />
-      <nav class="appBar__nav">
-        <a class="appBar__navItem active" href="index.html">Accueil</a>
-        <a class="appBar__navItem" href="menu.html">Menu</a>
-        <a class="appBar__navItem" href="contact.html">Contact</a>
-      </nav>
-    </header>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,600;1,400&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- -->
+		<link rel="stylesheet" href="css/pages/home.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon" />
+		<title>Yummy Nouilles - Accueil</title>
+	</head>
+	<body>
+		<header class="appBar">
+			<img
+				src="assets/logo.svg"
+				alt="Logo Yummy Nouilles"
+				class="appBar__logo"
+			/>
+			<nav class="appBar__nav">
+				<a class="appBar__navItem active" href="index.html">Accueil</a>
+				<a class="appBar__navItem" href="menu.html">Menu</a>
+				<a class="appBar__navItem" href="contact.html">Contact</a>
+			</nav>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="hero__titleContainer">
+					<h1 class="hero__title">YUMMY NOUILLES</h1>
+					<div class="underline"></div>
+					<p class="hero__subTitle">
+						Les nouilles les plus <span>yummy</span> de Paris
+					</p>
+					<a class="cta">Click & <span>Collect</span></a>
+				</div>
+				<img
+					src="assets/logo.svg"
+					alt="Logo Yummy Nouilles"
+					class="hero__icon"
+				/>
+			</section>
+
+			<section class="address">
+				<h2 class="address__title">Nos adresses</h2>
+				<div class="address__carousel">
+					<div>
+						<img
+							src="assets/img/restaurant/Facade_lancry.jpg"
+							alt="Photo du restaurant Yummy Nouilles rue du Lancry à Paris"
+							class="address__img"
+						/>
+						<p class="address__info">
+							<strong>Yummy Noodle</strong><br />
+							185 rue du Lancry<br />
+							75010 Paris
+						</p>
+					</div>
+					<div>
+						<img
+							src="assets/img/restaurant/Facade_maine.jpg"
+							alt="Photo du restaurant Yummy Nouilles rue Saint-Guillaume à Paris"
+							class="address__img"
+						/>
+						<p class="address__info">
+							<strong>Yu Noodle My</strong><br />
+							350 rue Saint-Guillaume<br />
+							75007 Paris
+						</p>
+					</div>
+					<div>
+						<img
+							src="assets/img/restaurant/Facade_saint_guillaume.jpg"
+							alt="Image du restaurant Yummy Nouilles rue au Maine à Paris"
+							class="address__img"
+						/>
+						<p class="address__info">
+							<strong>Les Yummy Nouilles</strong><br />
+							208 rue au Maine<br />
+							75003 Paris
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
