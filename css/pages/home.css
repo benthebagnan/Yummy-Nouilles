@@ -55,19 +55,42 @@
 	margin: 0.5rem 0 0 0;
 }
 
-.redBanner {
+/* About section */
+.about {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	background-color: var(--red-highlight);
-	color: var(--white);
-	padding: 3.75rem 0 3.75rem 0;
+	margin-top: 2.25rem;
 }
 
-.redBanner__title {
-	font-weight: var(--body-hightlight-font-weight);
-	margin: 0 0 1rem 0;
+.about__title {
+	margin-bottom: 1rem;
+}
+
+.about__text {
+	margin: 0 0 0 0;
+	width: 80%;
+}
+
+/* Social Media */
+.socialMedia {
+	margin-top: 2.25rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.socialMedia__title {
+	margin-bottom: 1rem;
+	text-decoration: underline var(--red-highlight);
+	text-decoration-thickness: 0.188rem;
+	text-underline-offset: 0.25;
+}
+
+.socialMedia__carousel {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 4.188rem;
 }
 
 @media (max-width: 768px) {

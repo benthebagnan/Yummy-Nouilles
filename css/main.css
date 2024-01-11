@@ -3,6 +3,7 @@
 @import 'variables.css';
 @import 'modules/appBar.css';
 @import 'modules/cta.css';
+@import 'modules/redBanner.css';
 
 * {
 	padding: 0;
